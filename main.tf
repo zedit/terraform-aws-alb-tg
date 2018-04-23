@@ -32,7 +32,7 @@ resource "aws_lb_listener" "test" {
   certificate_arn   = "${var.aws_alb_listener_certificate_arn}"
 
   default_action {
-    target_group_arn = "${var.aws_alb_tg_tg_name}"
+    target_group_arn = "${aws_lb_target_group.test.arn}"
     type             = "forward"
   }
 }
