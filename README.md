@@ -16,4 +16,4 @@ $ terraform apply
 ```
 
 ## <a name="Req"></a> Requirements
-You need installed [terraform](#https://www.terraform.io/intro/getting-started/install.html).
+You need installed [terraform](https://www.terraform.io/intro/getting-started/install.html).
