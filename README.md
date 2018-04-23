@@ -11,8 +11,10 @@ Clone this repository in your directory.
 $ git clone https://github.com/terraform-aws-alb-tg
 $ cd terraform-aws-alb-tg
 $ terraform init
+$ export AWS_ACCESS_KEY_ID=YOUR_AWS_ACCESS_KEY_ID
+$ export AWS_SECRET_ACCESS_KEY=YOUR_AWS_SECRET_ACCESS_KEY
 $ terraform plan
-$ terraform apply
+$ terraform apply -auto-approve
 ```
 
 ## <a name="Req"></a> Requirements
